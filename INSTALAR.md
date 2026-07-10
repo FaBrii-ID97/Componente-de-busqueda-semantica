@@ -4,7 +4,7 @@ Para replicar el entorno de desarrollo y ejecutar el componente de forma local:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/FaBrii-ID97/Componente-de-busqueda-semantica.git](https://github.com/FaBrii-ID97/Componente-de-busqueda-semantica.git)
+   git clone https://github.com/FaBrii-ID97/Componente-de-busqueda-semantica
    cd Componente-de-busqueda-semantica
 
 1) Crear y activar el entorno virtual:
