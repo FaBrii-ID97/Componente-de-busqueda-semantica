@@ -1,25 +1,27 @@
-Crear y activar entorno virtual
-2. **Crear y activar entorno virtual**
+## Instrucciones de Ejecución
+
+Para replicar el entorno de desarrollo y ejecutar el componente de forma local:
+
+1. **Clonar el repositorio:**
    ```bash
+   git clone [https://github.com/FaBrii-ID97/Componente-de-busqueda-semantica.git](https://github.com/FaBrii-ID97/Componente-de-busqueda-semantica.git)
+   cd Componente-de-busqueda-semantica
+
+1) Crear y activar el entorno virtual:
+```bash
    python -m venv venv
-# Windows:
-.\venv\Scripts\activate
    .\venv\Scripts\activate
+````
 
-Instalar las dependencias:
-pip install -r requirements.txt
-3. **Instalar las dependencias:**
-   ```bash
+2) Instalar dependencias:
+```bash
    pip install -r requirements.txt
-
-Cree un archivo llamado .env en la raíz del proyecto y añada su clave de acceso a la API:
-OPENAI_API_KEY=clave_api_aqui
-3. **Cree un archivo llamado .env en la raíz del proyecto y añada su clave de acceso a la API:**
-   ```bash
+```
+4) Configurar las credenciales:crear un archivo llamado .env en la raíz del proyecto y colocar la clave de acceso a la API:
+```bash
    OPENAI_API_KEY=clave_api_aqui
-
-Despliegue de capa de presentación
-streamlit run 05_app.py
-4. **Despliegue de capa de presentación**
-   ```bash
+```
+6) Desplegar capa presentacion:
+```bash
    streamlit run 05_app.py
+```
